@@ -1,0 +1,13 @@
+[package]
+name = "duplicate_finder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+walkdir = "2"
+rayon = "1.8"
+blake3 = "1"
+tabled = "0.15"
+clap = { version = "4", features = ["derive"] }
+dialoguer = "0.11"
+regex = "1"

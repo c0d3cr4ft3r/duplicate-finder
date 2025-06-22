@@ -1,0 +1,33 @@
+# Target directory
+/target/
+
+# Build artifacts
+**/*.rs.bk
+**/*.swp
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency lock (optional)
+# Uncomment if you want to ignore it
+# Cargo.lock
+
+# Backup and temp files
+*~
+*.tmp
+*.bak
+
+# Ignore user-specific metadata
+/.rustup/
+/.cargo/
+
+Cargo.lock
